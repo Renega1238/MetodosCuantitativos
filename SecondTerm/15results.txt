@@ -1,0 +1,294 @@
+[+] Bit string to be evaluated > 10011001100001011011
+[+] The instance evaluated with the bit string was > False
+[+] The clauses that were false > [3, 6, 21, 27, 28, 42, 45, 54, 55, 59, 63, 69, 77, 80]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 78, 79, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [18, -5, -17]. At index: 78
+
+[+] On that clause the random literal chosen was: -5. At index >2
+[+] Bit flipped at index > 5
+-------------- Iteration #0 --------------
+[+] New bit string to be evaluated > 10010001100001011011
+[+] The clauses that were false > [3, 21, 27, 28, 42, 45, 54, 55, 59, 63, 69, 80]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [13, 15, 18]. At index: 60
+
+[+] On that clause the random literal chosen was: 18. At index >3
+[+] Bit flipped at index > 18
+-------------- Iteration #1 --------------
+[+] New bit string to be evaluated > 10010001100001011111
+[+] The clauses that were false > [3, 21, 27, 28, 45, 53, 54, 55, 63, 69, 76]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [15, -4, 3]. At index: 22
+
+[+] On that clause the random literal chosen was: 15. At index >1
+[+] Bit flipped at index > 15
+-------------- Iteration #2 --------------
+[+] New bit string to be evaluated > 10010001100001111111
+[+] The clauses that were false > [3, 14, 27, 28, 45, 53, 54, 55, 63, 69, 76, 88]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 89, 90]
+[+] Random clause selected was > [-15, -17, -4]. At index: 15
+
+[+] On that clause the random literal chosen was: -4. At index >3
+[+] Bit flipped at index > 4
+-------------- Iteration #3 --------------
+[+] New bit string to be evaluated > 10000001100001111111
+[+] The clauses that were false > [3, 27, 45, 53, 55, 63, 69, 76, 88]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 54, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 89, 90]
+[+] Random clause selected was > [11, -17, 7]. At index: 28
+
+[+] On that clause the random literal chosen was: -17. At index >2
+[+] Bit flipped at index > 17
+-------------- Iteration #4 --------------
+[+] New bit string to be evaluated > 10000001100001110111
+[+] The clauses that were false > [3, 26, 45, 53, 55, 63, 69, 72, 76, 88]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 54, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 89, 90]
+[+] Random clause selected was > [-16, -1, -18]. At index: 54
+
+[+] On that clause the random literal chosen was: -16. At index >1
+[+] Bit flipped at index > 16
+-------------- Iteration #5 --------------
+[+] New bit string to be evaluated > 10000001100001100111
+[+] The clauses that were false > [3, 26, 45, 55, 63, 69, 72, 76, 84, 88]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 89, 90]
+[+] Random clause selected was > [16, -8, 5]. At index: 85
+
+[+] On that clause the random literal chosen was: -8. At index >2
+[+] Bit flipped at index > 8
+-------------- Iteration #6 --------------
+[+] New bit string to be evaluated > 10000000100001100111
+[+] The clauses that were false > [3, 26, 45, 55, 69, 70, 72, 76, 85, 88]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 71, 73, 74, 75, 77, 78, 79, 80, 81, 82, 83, 84, 86, 87, 89, 90]
+[+] Random clause selected was > [-9, 7, 8]. At index: 71
+
+[+] On that clause the random literal chosen was: -9. At index >1
+[+] Bit flipped at index > 9
+-------------- Iteration #7 --------------
+[+] New bit string to be evaluated > 10000000000001100111
+[+] The clauses that were false > [3, 26, 30, 45, 69, 72, 74, 76, 85]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 73, 75, 77, 78, 79, 80, 81, 82, 83, 84, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [3, 13, -18]. At index: 77
+
+[+] On that clause the random literal chosen was: -18. At index >3
+[+] Bit flipped at index > 18
+-------------- Iteration #8 --------------
+[+] New bit string to be evaluated > 10000000000001100011
+[+] The clauses that were false > [3, 26, 30, 42, 45, 69, 72, 80, 85]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 73, 74, 75, 76, 77, 78, 79, 81, 82, 83, 84, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [8, -19, -20]. At index: 86
+
+[+] On that clause the random literal chosen was: 8. At index >1
+[+] Bit flipped at index > 8
+-------------- Iteration #9 --------------
+[+] New bit string to be evaluated > 10000001000001100011
+[+] The clauses that were false > [3, 26, 42, 45, 63, 69, 72, 80, 84]
+[+] The clauses that were true > [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 73, 74, 75, 76, 77, 78, 79, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [-1, 13, 12]. At index: 46
+
+[+] On that clause the random literal chosen was: 12. At index >3
+[+] Bit flipped at index > 12
+-------------- Iteration #10 --------------
+[+] New bit string to be evaluated > 10000001000101100011
+[+] The clauses that were false > [1, 26, 42, 63, 69, 72, 80, 81, 84]
+[+] The clauses that were true > [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 70, 71, 73, 74, 75, 76, 77, 78, 79, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [-14, -1, 13]. At index: 70
+
+[+] On that clause the random literal chosen was: -1. At index >2
+[+] Bit flipped at index > 1
+-------------- Iteration #11 --------------
+[+] New bit string to be evaluated > 00000001000101100011
+[+] The clauses that were false > [1, 26, 42, 61, 63, 72, 84]
+[+] The clauses that were true > [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 62, 64, 65, 66, 67, 68, 69, 70, 71, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [13, 17, -19]. At index: 73
+
+[+] On that clause the random literal chosen was: -19. At index >3
+[+] Bit flipped at index > 19
+-------------- Iteration #12 --------------
+[+] New bit string to be evaluated > 00000001000101100001
+[+] The clauses that were false > [1, 24, 26, 42, 63, 84]
+[+] The clauses that were true > [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [17, 6, -20]. At index: 27
+
+[+] On that clause the random literal chosen was: 17. At index >1
+[+] Bit flipped at index > 17
+-------------- Iteration #13 --------------
+[+] New bit string to be evaluated > 00000001000101101001
+[+] The clauses that were false > [1, 12, 24, 27, 39, 42, 63, 78, 84]
+[+] The clauses that were true > [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [3, 11, -8]. At index: 64
+
+[+] On that clause the random literal chosen was: 3. At index >1
+[+] Bit flipped at index > 3
+-------------- Iteration #14 --------------
+[+] New bit string to be evaluated > 00100001000101101001
+[+] The clauses that were false > [1, 12, 24, 27, 33, 39, 42, 73, 78, 84]
+[+] The clauses that were true > [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [-17, 11, -12]. At index: 40
+
+[+] On that clause the random literal chosen was: -12. At index >3
+[+] Bit flipped at index > 12
+-------------- Iteration #15 --------------
+[+] New bit string to be evaluated > 00100001000001101001
+[+] The clauses that were false > [12, 24, 27, 33, 42, 73, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [11, -17, 7]. At index: 28
+
+[+] On that clause the random literal chosen was: 11. At index >1
+[+] Bit flipped at index > 11
+-------------- Iteration #16 --------------
+[+] New bit string to be evaluated > 00100001001001101001
+[+] The clauses that were false > [12, 24, 33, 42, 58, 60, 73, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [19, -8, -15]. At index: 25
+
+[+] On that clause the random literal chosen was: -15. At index >3
+[+] Bit flipped at index > 15
+-------------- Iteration #17 --------------
+[+] New bit string to be evaluated > 00100001001001001001
+[+] The clauses that were false > [12, 33, 36, 42, 58, 59, 60, 73, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [10, -11, 1]. At index: 61
+
+[+] On that clause the random literal chosen was: 1. At index >3
+[+] Bit flipped at index > 1
+-------------- Iteration #18 --------------
+[+] New bit string to be evaluated > 10100001001001001001
+[+] The clauses that were false > [33, 36, 42, 45, 58, 59, 69, 73, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 41, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [13, 15, 18]. At index: 60
+
+[+] On that clause the random literal chosen was: 15. At index >2
+[+] Bit flipped at index > 15
+-------------- Iteration #19 --------------
+[+] New bit string to be evaluated > 10100001001001101001
+[+] The clauses that were false > [24, 33, 42, 45, 58, 69, 73, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [-14, -1, 13]. At index: 70
+
+[+] On that clause the random literal chosen was: -14. At index >1
+[+] Bit flipped at index > 14
+-------------- Iteration #20 --------------
+[+] New bit string to be evaluated > 10100001001000101001
+[+] The clauses that were false > [24, 33, 45, 52, 58, 73, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [13, 7, -3]. At index: 74
+
+[+] On that clause the random literal chosen was: 13. At index >1
+[+] Bit flipped at index > 13
+-------------- Iteration #21 --------------
+[+] New bit string to be evaluated > 10100001001010101001
+[+] The clauses that were false > [24, 33, 52, 58, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [19, -8, -15]. At index: 25
+
+[+] On that clause the random literal chosen was: -15. At index >3
+[+] Bit flipped at index > 15
+-------------- Iteration #22 --------------
+[+] New bit string to be evaluated > 10100001001010001001
+[+] The clauses that were false > [33, 36, 52, 58, 78, 84]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [15, 16, 7]. At index: 37
+
+[+] On that clause the random literal chosen was: 16. At index >2
+[+] Bit flipped at index > 16
+-------------- Iteration #23 --------------
+[+] New bit string to be evaluated > 10100001001010011001
+[+] The clauses that were false > [17, 33, 52, 58, 65, 78]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [18, 19, -17]. At index: 79
+
+[+] On that clause the random literal chosen was: -17. At index >3
+[+] Bit flipped at index > 17
+-------------- Iteration #24 --------------
+[+] New bit string to be evaluated > 10100001001010010001
+[+] The clauses that were false > [11, 15, 17, 26, 52, 64, 65]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [14, 7, -20]. At index: 53
+
+[+] On that clause the random literal chosen was: -20. At index >3
+[+] Bit flipped at index > 20
+-------------- Iteration #25 --------------
+[+] New bit string to be evaluated > 10100001001010010000
+[+] The clauses that were false > [15, 35, 64, 65, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [9, 17, 15]. At index: 65
+
+[+] On that clause the random literal chosen was: 15. At index >3
+[+] Bit flipped at index > 15
+-------------- Iteration #26 --------------
+[+] New bit string to be evaluated > 10100001001010110000
+[+] The clauses that were false > [15, 24, 65, 82, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 83, 84, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [-13, -16, 14]. At index: 66
+
+[+] On that clause the random literal chosen was: -16. At index >2
+[+] Bit flipped at index > 16
+-------------- Iteration #27 --------------
+[+] New bit string to be evaluated > 10100001001010100000
+[+] The clauses that were false > [15, 24, 84, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [5, 17, -3]. At index: 16
+
+[+] On that clause the random literal chosen was: 5. At index >1
+[+] Bit flipped at index > 5
+-------------- Iteration #28 --------------
+[+] New bit string to be evaluated > 10101001001010100000
+[+] The clauses that were false > [24, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [19, -8, -15]. At index: 25
+
+[+] On that clause the random literal chosen was: 19. At index >1
+[+] Bit flipped at index > 19
+-------------- Iteration #29 --------------
+[+] New bit string to be evaluated > 10101001001010100010
+[+] The clauses that were false > [16, 80, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [-1, -19, 18]. At index: 81
+
+[+] On that clause the random literal chosen was: -19. At index >2
+[+] Bit flipped at index > 19
+-------------- Iteration #30 --------------
+[+] New bit string to be evaluated > 10101001001010100000
+[+] The clauses that were false > [24, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [19, -8, -15]. At index: 25
+
+[+] On that clause the random literal chosen was: -8. At index >2
+[+] Bit flipped at index > 8
+-------------- Iteration #31 --------------
+[+] New bit string to be evaluated > 10101000001010100000
+[+] The clauses that were false > [30, 49, 90]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+[+] Random clause selected was > [9, -1, 8]. At index: 31
+
+[+] On that clause the random literal chosen was: -1. At index >2
+[+] Bit flipped at index > 1
+-------------- Iteration #32 --------------
+[+] New bit string to be evaluated > 00101000001010100000
+[+] The clauses that were false > [49, 60, 66]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61, 62, 63, 64, 65, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [18, 14, 1]. At index: 67
+
+[+] On that clause the random literal chosen was: 14. At index >2
+[+] Bit flipped at index > 14
+-------------- Iteration #33 --------------
+[+] New bit string to be evaluated > 00101000001011100000
+[+] The clauses that were false > [49, 60]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [-3, 8, -15]. At index: 50
+
+[+] On that clause the random literal chosen was: -3. At index >1
+[+] Bit flipped at index > 3
+-------------- Iteration #34 --------------
+[+] New bit string to be evaluated > 00001000001011100000
+[+] The clauses that were false > [60]
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] Random clause selected was > [10, -11, 1]. At index: 61
+
+[+] On that clause the random literal chosen was: -11. At index >2
+[+] Bit flipped at index > 11
+-------------- Iteration #35 --------------
+[+] New bit string to be evaluated > 00001000000011100000
+[+] The clauses that were false > []
+[+] The clauses that were true > [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+[+] After 36 evaluations the solution was found
+[+] Solution found > 00001000000011100000
