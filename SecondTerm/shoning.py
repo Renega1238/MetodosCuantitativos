@@ -117,7 +117,11 @@ if __name__ == '__main__':
     # Regresamos una lista con valores Booleanos correspondientes al bitSting random
     booleanList = getBooleansFromBitString(bitString)
 
+<<<<<<< HEAD
     fichero = open('05results.txt', 'w')
+=======
+    fichero = open('results_03.txt', 'w')
+>>>>>>> 865c4895d31505dd38fe20e35f692a4d3b5c1c9f
 
     nFalseClauses = []
     
@@ -172,4 +176,8 @@ if __name__ == '__main__':
     print("final graph: ", nFalseClauses)
     plt.plot(list(range(len(nFalseClauses))), nFalseClauses)
     plt.title("Random Walk")
+<<<<<<< HEAD
     plt.savefig('05graph.png')
+=======
+    plt.savefig('graph_03.png')
+>>>>>>> 865c4895d31505dd38fe20e35f692a4d3b5c1c9f
